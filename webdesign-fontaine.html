@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Trabalhos - La Fontaine livros</title>
+
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Source+Sans+Pro:wght@300,100&display=swap" rel="stylesheet"> <!-- fonte do google fontes -->
+		<script type="text/javascript" src="js/scripts.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	</head>
+
+
+	<body> 
+
+			<div id="navigation" class="navigation">
+				<ul>
+					<li><a href="index.html"> Inicio</a></li>
+					<li><a href="portfolio.html">Trabalhos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
+				</ul>
+			</div>
+
+			
+						
+			<div class="main">
+				
+				
+				<ul class="caminho">
+					<li><a href="index.html">Inicio</a></li>
+					<li>></li>
+					<li><a href="portfolio.html">Trabalhos</a></li>
+					<li>></li>
+					<li>La Fontaine livros</li>
+				</ul>
+
+				<h1>La Fontaine livros</h1>
+
+				<img class="foto-trabalhos" src="img/trabalhos/infanto.jpg" alt="La Fontaine livros ">
+				
+				<h2>Descrição do Projeto</h2>
+				<p>LOJA: La Fontaine livros</p>
+				
+
+				<p>Instalação da nova sede no shopping trimais places em São Paulo.</p>
+
+				<img class="foto-trabalhos" src="img/trabalhos/infanto2.jpg" alt="La Fontaine livros ">
+
+				<p>Projeto pensado para aconchego dos clientes que frequentam o espaço, com tons mais neutros e o uso do amarelo que remete aos sentimentos de alegria, otimismo e calor.</p>
+
+				<img class="foto-trabalhos" src="img/trabalhos/infanto3.jpg" alt="La Fontaine livros ">
+
+				<p>O projeto teve um destaque muito legal na área kids onde foi utilizado muitas cores e objetos que chamassem a atenção das crianças incentivando de forma divertida a leitura. As prateleiras foram projetadas na altura ideal para que elas possam escolher seus próprios livros. </p>
+
+				<img class="foto-trabalhos" src="img/trabalhos/infanto4.jpg" alt="La Fontaine livros ">
+
+				<img class="foto-trabalhos" src="img/trabalhos/infanto1.jpg" alt="La Fontaine livros ">
+
+				
+			
+				<br>
+				<a class="back-link" href="portfolio.html">&larr;Voltar aos Trabalhos<a>
+
+			</div>	
+
+			<img id="imagem_whats" class="imagem_whats" src="img/whatsflutuante.png"  onClick="window.open('https://api.whatsapp.com/send?phone=5518991277465&text=Ol%C3%A1', '_blank');">
+
+			<div id="msg1" style="visibility: hidden;" >Fale conosco via WhatsApp</div>
+
+			<script type="text/javascript">
+
+				// ativa o box de mensagem
+				function showIt2() {
+				  document.getElementById("msg1").style.visibility = "visible";
+				}
+				setTimeout("showIt2()", 5000); // Depois 5 segs
+
+				// desativa o box de mensagem
+				function hiddenIt() {
+				  document.getElementById("msg1").style.visibility = "hidden";
+				}
+				setTimeout("hiddenIt()", 15000); // Depois 15 segs
+
+				// ativa novamente o box de mensagem
+				function showIt3() {
+				  document.getElementById("msg1").style.visibility = "visible";
+				}
+				setTimeout("showIt3()", 35000); // Depois 35 segs
+
+				// Clique para esconder o box de mensagem
+				msg1.onclick = function ()  {
+				    document.getElementById('msg1').style.visibility = "hidden"; 
+				};
+			</script>		
+
+	</body>
+
+</html>

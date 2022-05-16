@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Trabalhos - De Arquitetura</title>
+
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Source+Sans+Pro:wght@300,100&display=swap" rel="stylesheet"> <!-- fonte do google fontes -->
+		<script type="text/javascript" src="js/scripts.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	</head> 
+
+
+	<body> 
+
+			<div id="navigation" class="navigation">
+				<ul>
+					<a href="index.html"> <img src="img/logoconstrucao.png"></a>
+					<li><a href="index.html"> Inicio</a></li>
+					<li><a href="portfolio.html">Trabalhos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
+				</ul>
+			</div>
+
+			
+						
+			<div class="main">
+				
+				
+				<ul class="caminho">
+					<li><a href="index.html">Inicio</a></li>
+					<li>></li>
+					<li>Portfolio</li>
+				</ul>
+
+				<h1>Trabalhos</h1>			
+
+				
+				<div style="background-image: url('img/sal1.jpg')" class="miniatura">
+					<a href="webdesign-sal.html">
+						<div class="blackbox">
+							<div class="blackbox-text">
+								<h1>Sal da Terra</h1>
+								<h2>Projeto 3D</h2>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div style="background-image: url('img/hanania1.jpg')" class="miniatura">
+					<a href="webdesign-hanania.html">
+						<div class="blackbox">
+							<div class="blackbox-text">
+								<h1>Hanânia Store</h1>
+								<h2>Projeto 3D</h2>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div style="background-image: url('img/fruit6.jpg')" class="miniatura">
+					<a href="webdesign-fruit.html">
+						<div class="blackbox">
+							<div class="blackbox-text">
+								<h1>FRANQUIA AÇAÍ Mr. FRUIT</h1>
+								<h2>Projeto 3D</h2>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div style="background-image: url('img/infanto.jpg')" class="miniatura">
+					<a href="webdesign-fontaine.html">
+						<div class="blackbox">
+							<div class="blackbox-text">
+								<h1>La Fontaine livros</h1>
+								<h2>Projeto 3D</h2>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div style="background-image: url('img/ticos5.jpg')" class="miniatura">
+					<a href="webdesign-ticos.html">
+						<div class="blackbox">
+							<div class="blackbox-text">
+								<h1>Ticos Burger Caraguatatuba</h1>
+								<h2>Projeto 3D</h2>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div style="background-image: url('img/mister1.jpg')" class="miniatura">
+					<a href="webdesign-mistersheik.html">
+						<div class="blackbox">
+							<div class="blackbox-text">
+								<h1>Mister Sheik</h1>
+								<h2>Projeto 3D</h2>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div style="background-image: url('img/totalacai1.jpg')" class="miniatura">
+					<a href="webdesign-totalacai.html">
+						<div class="blackbox">
+							<div class="blackbox-text">
+								<h1>Total Açaí</h1>
+								<h2>Projeto 3D</h2>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+
+
+
+				<br>
+				<a class="back-link" href="index.html">&larr;Voltar ao início<a>
+			</div>	
+
+			<img id="imagem_whats" class="imagem_whats" src="img/whatsflutuante.png"  onClick="window.open('https://api.whatsapp.com/send?phone=5518991277465&text=Ol%C3%A1', '_blank');">
+
+			<div id="msg1" style="visibility: hidden;" >Fale conosco via WhatsApp</div>
+
+			<script type="text/javascript">
+
+				// ativa o box de mensagem
+				function showIt2() {
+				  document.getElementById("msg1").style.visibility = "visible";
+				}
+				setTimeout("showIt2()", 5000); // Depois 5 segs
+
+				// desativa o box de mensagem
+				function hiddenIt() {
+				  document.getElementById("msg1").style.visibility = "hidden";
+				}
+				setTimeout("hiddenIt()", 15000); // Depois 15 segs
+
+				// ativa novamente o box de mensagem
+				function showIt3() {
+				  document.getElementById("msg1").style.visibility = "visible";
+				}
+				setTimeout("showIt3()", 35000); // Depois 35 segs
+
+				// Clique para esconder o box de mensagem
+				msg1.onclick = function ()  {
+				    document.getElementById('msg1').style.visibility = "hidden"; 
+				};
+			</script>
+
+			
+
+	</body>
+
+</html>

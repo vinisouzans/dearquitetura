@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>De Arquitetura e Construção</title>
+
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Source+Sans+Pro:wght@300,100&display=swap" rel="stylesheet"> <!-- fonte do google fontes -->
+		<script type="text/javascript" src="js/scripts.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+
+
+	<body>
+
+			<div id="navigation" class="navigation">
+				<ul>
+					<a href="index.html"> <img src="img/logoconstrucao.png"></a>
+					<li><a href="index.html"> Inicio</a></li>
+					<li><a href="portfolio.html">Trabalhos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
+				</ul>
+			</div>
+
+			
+			<div class="capa">
+
+				<div class="profile-pic">
+					<img src="img/vinao.png" alt="Foto de Daiane Esquevani">
+				</div>
+
+				<div class="profile-title">
+					<h1>Daiane <span>Esquevani</span></h1>
+					<h2>Arquiteta e Urbanista - Especializada em Franquias </h2>
+				</div>
+
+			</div>
+
+
+			<img id="imagem_whats" class="imagem_whats" src="img/whatsflutuante.png"  onClick="window.open('https://api.whatsapp.com/send?phone=5518991277465&text=Ol%C3%A1', '_blank');">
+
+			
+
+			<div id="msg1" style="visibility: hidden;" >Fale conosco via WhatsApp</div>
+
+			<script type="text/javascript">
+
+				// ativa o box de mensagem
+				function showIt2() {
+				  document.getElementById("msg1").style.visibility = "visible";
+				}
+				setTimeout("showIt2()", 5000); // Depois 5 segs
+
+				// desativa o box de mensagem
+				function hiddenIt() {
+				  document.getElementById("msg1").style.visibility = "hidden";
+				}
+				setTimeout("hiddenIt()", 15000); // Depois 15 segs
+
+				// ativa novamente o box de mensagem
+				function showIt3() {
+				  document.getElementById("msg1").style.visibility = "visible";
+				}
+				setTimeout("showIt3()", 35000); // Depois 35 segs
+
+				// Clique para esconder o box de mensagem
+				msg1.onclick = function ()  {
+				    document.getElementById('msg1').style.visibility = "hidden"; 
+				};
+			</script>
+			
+			
+			
+
+		
+
+	</body>
+
+</html>
